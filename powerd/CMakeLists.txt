@@ -41,4 +41,4 @@ set_property(TARGET powerd PROPERTY INSTALL_RPATH_USE_LINK_PATH TRUE)
 
 install(TARGETS powerd DESTINATION "sbin")
 install(FILES ./preferences/powerd.conf DESTINATION "${SYSCONFDIR_FULL}/default")
-install(PROGRAMS ./etc/event.d/powerd DESTINATION "${SYSCONFDIR_FULL}/event.d")
+install(PROGRAMS ./etc/init/powerd DESTINATION "${SYSCONFDIR_FULL}/init")
